@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="受保护路径">
+  <!-- Original artwork for dsh-protect-files: a folder guarded by a shield.
+       Two elements only, so the subject still reads at row size; plain
+       geometry, no text, no style block, no gradient. Plugin Manager draws the
+       surrounding tile, so none is drawn here. -->
+  <path d="M18 3.2 30.6 6.5v9.3c0 7.4-5 13.3-12.6 16.4C10.4 29.1 5.4 23.2 5.4 15.8V6.5Z"
+        fill="none" stroke="#3f7bd9" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M12.2 15.1h3.2l1.5-1.9h3.1l1.4 1.9h2.4a1.6 1.6 0 0 1 1.6 1.6v6.5a1.6 1.6 0 0 1-1.6 1.6H12.2a1.6 1.6 0 0 1-1.6-1.6v-6.5a1.6 1.6 0 0 1 1.6-1.6Z"
+        fill="none" stroke="#3f7bd9" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

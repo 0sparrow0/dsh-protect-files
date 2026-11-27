@@ -1,0 +1,9 @@
+# Rows this bundle contributes to the profile composition.
+# The plugin keeps its own groups inside this row's config, edited on the
+# Plugins page; `groups` is a live field, so edits apply without a restart.
+- insert:
+    - id: dsh-protect-files
+      name: dsh-protect-files
+      config:
+        enabled: true
+        groups: []

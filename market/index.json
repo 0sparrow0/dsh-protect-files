@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "Sparrow 的 DSH 插件",
+    "en": "Sparrow's DSH plugins"
+  },
+  "description": {
+    "zh": "sparrow 维护的 DeepSeek Harness 插件索引。",
+    "en": "Plugin index maintained by sparrow for DeepSeek Harness."
+  },
+  "metadata": {
+    "categories": {
+      "security": {
+        "title": { "zh": "安全", "en": "Security" }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-protect-files",
+      "title": {
+        "zh": "受保护路径",
+        "en": "Protected paths"
+      },
+      "description": {
+        "zh": "把生产配置挡在 agent 工具之外：按分组登记目录与文件，工具调用在执行前被拒绝，父目录仍可列目录/glob/grep 且受保护条目自动剔除。策略级防护，非操作系统隔离。",
+        "en": "Keeps production configuration out of agent tool calls: register directories and files per group; calls are denied before they run, while parent directories stay searchable with protected entries removed. Policy-level protection, not OS isolation."
+      },
+      "icon": "icon.svg",
+      "author": "sparrow",
+      "homepage": "https://github.com/sparrow/dsh-protect-files",
+      "repository": {
+        "url": "https://github.com/sparrow/dsh-protect-files"
+      },
+      "metadata": {
+        "category": "security",
+        "keywords": ["security", "protect-files", "secret-guard", "production-config"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1764201600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sparrow/dsh-protect-files",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": { "dsh": ">=0.2.0" }
+        }
+      ]
+    }
+  ]
+}
