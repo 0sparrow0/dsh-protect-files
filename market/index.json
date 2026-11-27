@@ -47,7 +47,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/sparrow/dsh-protect-files",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "14bb6358ae46a82e305ccec04c24a3953bfdde71"
           },
           "engines": { "dsh": ">=0.2.0" }
         }

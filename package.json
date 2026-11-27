@@ -28,7 +28,9 @@
     "icon.svg",
     "README.md",
     "PUBLISHING.md",
-    "LICENSE"
+    "LISTING.md",
+    "LICENSE",
+    "market"
   ],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
