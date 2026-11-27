@@ -9,13 +9,26 @@
 
 ## 前置条件（必须已完成）
 
-- [ ] 包已发布到 npm：`npm view dsh-protect-files version` 返回 `0.1.1`
-- [ ] GitHub 仓库公开可访问：https://github.com/0sparrow0/dsh-protect-files
-- [ ] 仓库里 `market/index.json` 的 `source` 已是 `{"type": "npm"}`
+- [x] 包已发布到 npm：`dsh-protect-files@0.1.1`（`latest` 已指向它）
+- [x] GitHub 仓库公开可访问：https://github.com/0sparrow0/dsh-protect-files
+- [x] 仓库里 `market/index.json` 的 `source` 是 `{"type": "npm"}`
 
-公开目录现有 **7076 个条目，全部是 npm 源**。git 源不会被收录，所以 npm 发布是硬前提。
+公开目录现有 **7076 个条目，全部是 npm 源**。git 源不会被收录。
 
----
+## 已验证的发布事实
+
+| 项目 | 值 |
+| --- | --- |
+| npm 包名 | `dsh-protect-files` |
+| 当前版本 | `0.1.1`（`dist-tags.latest`） |
+| 发布时间 | `2026-11-27T09:44:23.659Z` |
+| Unix 时间戳 | `1795772663` |
+| tarball | `https://registry.npmjs.org/dsh-protect-files/-/dsh-protect-files-0.1.1.tgz` |
+| tarball 大小 | 39.8 kB（解包 110.8 kB，12 个文件） |
+| 维护者 | `0sparrow0` |
+| 许可证 | MIT |
+| 国内镜像同步 | npmmirror ✅ / 腾讯云 ✅（均已是 0.1.1） |
+| DSH 实际安装验证 | `pnpm add dsh-protect-files` → `application: applied`，1.2 秒 |
 
 ## 条目（供维护者/CI 使用）
 
@@ -38,18 +51,12 @@
   "versions": [
     {
       "version": "0.1.1",
-      "publishTimestamp": 1764201600,
+      "publishTimestamp": 1795772663,
       "source": { "type": "npm" },
       "engines": {}
     }
   ]
 }
-```
-
-`publishTimestamp` 请用 npm 上的真实发布时间（Unix 秒）：
-
-```powershell
-npm view dsh-protect-files time.0.1.1
 ```
 
 `engines` 留空对象：真实目录里 7076 个条目全部是 `{}`，写死范围反而可能被判不兼容。
