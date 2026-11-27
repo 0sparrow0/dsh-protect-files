@@ -34,7 +34,7 @@ git push origin v0.1.1
 
 推送前请确认两件事：
 
-1. `package.json` 里的 `homepage` / `repository` 用的是你真实的 GitHub 地址（当前写的是 `sparrow`）。
+1. `package.json` 里的 `homepage` / `repository` 用的是你真实的 GitHub 地址（当前写的是 `0sparrow0`）。
 2. **要走 npm 就删掉 `"private": true`**；只走 git 安装可以保留。
 
 > 仓库推送后，`market/index.json` 里的 `commit` 需要换成真实 SHA。

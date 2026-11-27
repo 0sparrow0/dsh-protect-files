@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Protects production configuration files and folders from agent tool access.",
   "license": "MIT",
-  "author": "sparrow",
+  "author": "0sparrow0",
   "keywords": [
     "dsh-plugin",
     "dsh-bundle",

@@ -127,7 +127,7 @@ Host it in the repo or on GitHub Pages so an https URL serves it.
         "en": "Group-based protection for production config paths. Policy-level, not OS isolation."
       },
       "icon": "icon.svg",
-      "author": "sparrow",
+      "author": "0sparrow0",
       "homepage": "https://github.com/0sparrow0/dsh-protect-files",
       "repository": { "url": "https://github.com/0sparrow0/dsh-protect-files" },
       "metadata": {

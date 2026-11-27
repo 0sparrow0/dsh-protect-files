@@ -1,12 +1,12 @@
 {
   "format": 1,
   "title": {
-    "zh": "Sparrow 的 DSH 插件",
-    "en": "Sparrow's DSH plugins"
+    "zh": "0sparrow0 的 DSH 插件",
+    "en": "0sparrow0's DSH plugins"
   },
   "description": {
-    "zh": "sparrow 维护的 DeepSeek Harness 插件索引。",
-    "en": "Plugin index maintained by sparrow for DeepSeek Harness."
+    "zh": "0sparrow0 维护的 DeepSeek Harness 插件索引。",
+    "en": "Plugin index maintained by 0sparrow0 for DeepSeek Harness."
   },
   "metadata": {
     "categories": {
@@ -29,7 +29,7 @@
         "en": "Keeps production configuration out of agent tool calls: register directories and files per group; calls are denied before they run, while parent directories stay searchable with protected entries removed. Policy-level protection, not OS isolation."
       },
       "icon": "icon.svg",
-      "author": "sparrow",
+      "author": "0sparrow0",
       "homepage": "https://github.com/0sparrow0/dsh-protect-files",
       "repository": {
         "url": "https://github.com/0sparrow0/dsh-protect-files"
