@@ -26,7 +26,7 @@ dshmarket 里能搜到的插件来自 **目录（catalog）**，不是它自己�
 cd E:\wyb\Aother\Eagle\aiwork\DeepSeekHarness\harness-plugin\dsh-protect-files
 
 # 在 GitHub 上先建一个空仓库 dsh-protect-files（不要勾 README），然后：
-git remote add origin https://github.com/sparrow/dsh-protect-files.git
+git remote add origin https://github.com/0sparrow0/dsh-protect-files.git
 git push -u origin main
 git tag v0.1.1
 git push origin v0.1.1
@@ -73,7 +73,7 @@ python -m http.server 8899 --directory "E:\wyb\Aother\Eagle\aiwork\DeepSeekHarne
 仓库设置 → Pages → Source 选 `main` 分支的 `/` 根目录，保存。之后目录地址是：
 
 ```
-https://sparrow.github.io/dsh-protect-files/market/index.json
+https://0sparrow0.github.io/dsh-protect-files/market/index.json
 ```
 
 注意：Pages 地址要等首次构建完成（约 1 分钟）才可用。
@@ -105,13 +105,13 @@ https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
 ```
 ### Plugin: dsh-protect-files
 
-- Repository: https://github.com/sparrow/dsh-protect-files
+- Repository: https://github.com/0sparrow0/dsh-protect-files
 - Version: 0.1.1 (tag v0.1.1)
 - Category: security
 - Languages: zh, en
 - Description (zh): 按分组保护生产配置路径，拒绝 agent 读取与搜索；父目录仍可用且受保护条目自动剔除。策略级防护，非操作系统隔离。
 - Description (en): Group-based protection for production config paths; parent directories stay searchable with protected entries removed. Policy-level, not OS isolation.
-- Install: `npm i dsh-protect-files` 或 `git+https://github.com/sparrow/dsh-protect-files.git#v0.1.1`
+- Install: `npm i dsh-protect-files` 或 `git+https://github.com/0sparrow0/dsh-protect-files.git#v0.1.1`
 - License: MIT
 - Notes: 插件自带可回归的测试探针（test/*.probe.mjs），无原生依赖、无构建步骤。
 ```

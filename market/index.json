@@ -30,9 +30,9 @@
       },
       "icon": "icon.svg",
       "author": "sparrow",
-      "homepage": "https://github.com/sparrow/dsh-protect-files",
+      "homepage": "https://github.com/0sparrow0/dsh-protect-files",
       "repository": {
-        "url": "https://github.com/sparrow/dsh-protect-files"
+        "url": "https://github.com/0sparrow0/dsh-protect-files"
       },
       "metadata": {
         "category": "security",
@@ -46,7 +46,7 @@
           "publishTimestamp": 1764201600,
           "source": {
             "type": "git",
-            "url": "https://github.com/sparrow/dsh-protect-files",
+            "url": "https://github.com/0sparrow0/dsh-protect-files",
             "commit": "97255e9fab08b6cd727b4328dd398085b74cd433"
           },
           "engines": { "dsh": ">=0.2.0" }

@@ -58,7 +58,7 @@ git init
 git add .
 git commit -m "guard production paths from agent tool access"
 
-git remote add origin https://github.com/sparrow/dsh-protect-files.git
+git remote add origin https://github.com/0sparrow0/dsh-protect-files.git
 git branch -M main
 git push -u origin main
 
@@ -88,7 +88,7 @@ The name must be globally unique; use a scoped name if taken.
 装 / install spec：
 
 ```
-git+https://github.com/sparrow/dsh-protect-files.git#v<version>
+git+https://github.com/0sparrow0/dsh-protect-files.git#v<version>
 ```
 
 优点：无需 npm；缺点：安装需能访问 GitHub，版本靠 tag。
@@ -128,8 +128,8 @@ Host it in the repo or on GitHub Pages so an https URL serves it.
       },
       "icon": "icon.svg",
       "author": "sparrow",
-      "homepage": "https://github.com/sparrow/dsh-protect-files",
-      "repository": { "url": "https://github.com/sparrow/dsh-protect-files" },
+      "homepage": "https://github.com/0sparrow0/dsh-protect-files",
+      "repository": { "url": "https://github.com/0sparrow0/dsh-protect-files" },
       "metadata": {
         "category": "security",
         "keywords": ["security", "protect-files", "secret-guard"],
