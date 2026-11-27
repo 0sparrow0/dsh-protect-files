@@ -1,11 +1,18 @@
 {
   "name": "dsh-protect-files",
   "version": "0.1.1",
-  "private": true,
   "type": "module",
   "description": "Protects production configuration files and folders from agent tool access.",
   "license": "MIT",
   "author": "0sparrow0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0sparrow0/dsh-protect-files.git"
+  },
+  "homepage": "https://github.com/0sparrow0/dsh-protect-files#readme",
+  "bugs": {
+    "url": "https://github.com/0sparrow0/dsh-protect-files/issues"
+  },
   "keywords": [
     "dsh-plugin",
     "dsh-bundle",

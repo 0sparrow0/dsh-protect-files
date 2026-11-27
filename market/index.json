@@ -25,8 +25,8 @@
         "en": "Protected paths"
       },
       "description": {
-        "zh": "把生产配置挡在 agent 工具之外：按分组登记目录与文件，工具调用在执行前被拒绝，父目录仍可列目录/glob/grep 且受保护条目自动剔除。策略级防护，非操作系统隔离。",
-        "en": "Keeps production configuration out of agent tool calls: register directories and files per group; calls are denied before they run, while parent directories stay searchable with protected entries removed. Policy-level protection, not OS isolation."
+        "zh": "把生产配置挡在 agent 工具之外：按分组登记目录与文件，点名/解析到/写入的调用在执行前被拒绝；父目录仍可列目录、glob、grep，受保护条目自动从结果里剔除。策略级防护，不是操作系统隔离。",
+        "en": "Keeps production configuration out of agent tool calls: register directories and files per group; calls that name, resolve to, or write one are denied before they run, while parent directories stay searchable with protected entries removed. Policy-level protection, not OS isolation."
       },
       "icon": "icon.svg",
       "author": "0sparrow0",
@@ -44,12 +44,8 @@
         {
           "version": "0.1.1",
           "publishTimestamp": 1764201600,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/0sparrow0/dsh-protect-files",
-            "commit": "6bf3ae0df201c64900d070b582d2101c05ba8d6b"
-          },
-          "engines": { "dsh": ">=0.2.0" }
+          "source": { "type": "npm" },
+          "engines": {}
         }
       ]
     }
